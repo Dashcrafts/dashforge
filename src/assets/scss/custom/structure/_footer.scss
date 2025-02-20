@@ -1,0 +1,56 @@
+//
+// footer.scss
+//
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: $footer-height;
+  display: flex;
+  align-items: center;
+  padding: 0 $spacer;
+  color: var(--#{$prefix}secondary-text-emphasis);
+  transition: $transition-base;
+  background-color: var(--#{$prefix}secondary-bg-subtle);
+
+  .footer-links {
+    a {
+      color: var(--#{$prefix}secondary-text-emphasis);
+      margin-left: $spacer;
+      transition: all 0.4s;
+
+      &:hover {
+        color: var(--#{$prefix}secondary-text-emphasis);
+      }
+
+      &:first-of-type {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+// Used for account authentication pages
+.footer-alt {
+  background-color: transparent !important;
+  border: none;
+  text-align: center;
+  justify-content: center;
+}
+
+html[data-layout-mode="detached"]:not([data-layout="topnav"]) {
+  .footer {
+    .container-fluid {
+      max-width: 100%;
+      padding: 0;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .footer {
+    text-align: center;
+  }
+}
