@@ -1,15 +1,12 @@
 {
   "name": "dashforgereact",
   "private": true,
-  "version": "2",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "serve": "vite preview",
-    "builds": "vite build",
-    "src": "build.sh",
-    "use": "@vercel/node",
-    "outputDirectory": "dist"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@fullcalendar/bootstrap": "^6.1.15",
