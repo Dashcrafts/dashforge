@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "serve": "vite preview",
-    "builds": "vite build",
+    "builds": "build.sh",
     "src": "package.json",
     "use": "@vercel/node",
     "outputDirectory": "dist"
