@@ -5,7 +5,7 @@ import { createRoot } from "react-dom/client";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <React.Fragment>
-      <BrowserRouter basename={"/dashforge-react/"}>
+      <BrowserRouter basename={""}>
         <App />
       </BrowserRouter>
     </React.Fragment>

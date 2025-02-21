@@ -11,7 +11,7 @@ export const fakeUsers = [
     lastName: "User",
     role: "User",
     token:
-      "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ0ZWNoemFhIiwiYXVkIjoiaHR0cHM6Ly90ZWNoemFhLmdldGFwcHVpLmNvbS8iLCJzdWIiOiJzdXBwb3J0QGNvZGVydGhlbWVzLmNvbSIsImxhc3ROYW1lIjoiVGVjaHphYSIsIkVtYWlsIjoidGVjaHphYXN0dWRpb0BnbWFpbC5jb20iLCJSb2xlIjoiQWRtaW4iLCJmaXJzdE5hbWUiOiJUZXN0VG9rZW4ifQ.ud4LnFZ-mqhHEYiPf2wCLM7KvLGoAxhXTBSymRIZEFLleFkO119AXd8p3OfPCpdUWSyeZl8-pZyElANc_KHj5w",
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJkYXNoY3JhZnRzIiwic3ViIjoiZGFzaGNyYWZ0c3RlYW1AZ21haWwuY29tIiwibGFzdE5hbWUiOiJUZWNoemFhIiwiRW1haWwiOiJkYXNoY3JhZnRzdGVhbUBnbWFpbC5jb20iLCJSb2xlIjoiQWRtaW4iLCJmaXJzdE5hbWUiOiJUZXN0VG9rZW4ifQ.peG4ADn4PkcaPRP7DCxTx-Z54Cxm9mHlMYLWbVgY_-s",
   },
   {
     id: "2",
@@ -22,7 +22,7 @@ export const fakeUsers = [
     lastName: "User",
     role: "Admin",
     token:
-      "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ0ZWNoemFhIiwiYXVkIjoiaHR0cHM6Ly90ZWNoemFhLmdldGFwcHVpLmNvbS8iLCJzdWIiOiJzdXBwb3J0QGNvZGVydGhlbWVzLmNvbSIsImxhc3ROYW1lIjoiVGVjaHphYSIsIkVtYWlsIjoidGVjaHphYXN0dWRpb0BnbWFpbC5jb20iLCJSb2xlIjoiQWRtaW4iLCJmaXJzdE5hbWUiOiJUZXN0VG9rZW4ifQ.ud4LnFZ-mqhHEYiPf2wCLM7KvLGoAxhXTBSymRIZEFLleFkO119AXd8p3OfPCpdUWSyeZl8-pZyElANc_KHj5w",
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJkYXNoY3JhZnRzIiwic3ViIjoiZGFzaGNyYWZ0c3RlYW1AZ21haWwuY29tIiwibGFzdE5hbWUiOiJUZWNoemFhIiwiRW1haWwiOiJkYXNoY3JhZnRzdGVhbUBnbWFpbC5jb20iLCJSb2xlIjoiQWRtaW4iLCJmaXJzdE5hbWUiOiJUZXN0VG9rZW4ifQ.peG4ADn4PkcaPRP7DCxTx-Z54Cxm9mHlMYLWbVgY_-s",
   },
 ];
 export default function configureFakeBackend() {
